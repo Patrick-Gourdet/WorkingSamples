@@ -28,8 +28,8 @@
               "src/assets"
             ],
             "styles": [
-
-              "src/styles.scss","./src/hover-min.css"
+              "src/styles.scss",
+              "./src/hover-min.css"
             ],
             "scripts": []
           },
@@ -122,8 +122,13 @@
               "devServerTarget": "PortfolioApplication:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "PortfolioApplication"
 }
